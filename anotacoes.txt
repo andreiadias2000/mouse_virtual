@@ -1,0 +1,7 @@
+
+
+pra iniciar
+
+1 - .\venv\Scripts\activate
+
+2 - python main.py
