@@ -10,7 +10,7 @@ Para que a biblioteca de visão computacional funcione corretamente, você **pre
 
 **1. Clone o repositório e entre na pasta**
 Abra o terminal do seu VS Code e rode:
-`git clone [COLOQUE_AQUI_O_LINK_DO_SEU_REPOSITORIO_GITHUB]`
+`git clone [https://github.com/andreiadias2000/mouse_virtual.git]`
 `cd mouse_virtual`
 
 **2. Crie o ambiente virtual isolado**
