@@ -31,6 +31,29 @@ Com o ambiente ativado, rode este comando para baixar tudo automaticamente:
 `python main.py`
 
 ## 🖐️ Como usar
+## 🖐️ Guia de Comandos e Gestos
+##       Comandos com 1 Mão (Navegação)
+(Certifique-se de que apenas uma mão está visível na câmera)
+
+🖱️ Mover o Mouse: Aponte o dedo indicador para a câmera e mova a mão. Uma marcação amarela seguirá o seu dedo.
+
+🖱️ Clique Simples: Faça um movimento de pinça rápido, juntando a ponta do dedão com a ponta do dedo indicador. A marcação ficará verde ao clicar.
+
+⬆️ Rolar para Cima (Scroll Up): Junte a ponta do dedão com a ponta do dedo médio. A marcação ficará azul.
+
+⬇️ Rolar para Baixo (Scroll Down): Junte a ponta do dedão com a ponta do dedo anelar. A marcação ficará vermelha.
+
+Comandos com 2 Mãos (Controle de Tela)
+(As duas mãos devem estar visíveis na câmera simultaneamente)
+
+🔍 Ativar Modo Zoom: Levante as duas mãos apontando os dois dedos indicadores. O sistema conectará os dedos com uma linha azul na tela.
+
+➕ Aumentar Tela (Zoom In): Com a linha azul ativa, afaste os dedos indicadores um do outro.
+
+➖ Diminuir Tela (Zoom Out): Com a linha azul ativa, aproxime os dedos indicadores um do outro.
+
+Comando de Segurança
+🛑 Encerrar o Programa: Clique na janela de vídeo da câmera para focar nela e aperte a tecla Q no teclado para fechar a aplicação com segurança.
 * Levante a mão de frente para a câmera.
 * Use a ponta do **dedo indicador** para mover o mouse pela tela.
 * Para **clicar**, faça um movimento de pinça, juntando a ponta do dedo indicador com a ponta do dedão.
