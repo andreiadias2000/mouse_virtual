@@ -40,6 +40,8 @@ Com o ambiente ativado, rode este comando para baixar tudo automaticamente:
 * ⬆️ **Rolar para Cima (Scroll Up):** Junte a ponta do **dedão** com a ponta do **dedo médio**. A marcação ficará azul.
 * ⬇️ **Rolar para Baixo (Scroll Down):** Junte a ponta do **dedão** com a ponta do **dedo anelar**. A marcação ficará vermelha.
 
+  
+
 ### Comandos com 2 Mãos (Controle de Tela)
 *(As duas mãos devem estar visíveis na câmera simultaneamente)*
 
