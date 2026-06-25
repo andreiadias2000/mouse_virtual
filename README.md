@@ -1,6 +1,6 @@
 # 🖱️ Mouse Virtual com Webcam
 
-Este projeto usa visão computacional (OpenCV e MediaPipe) para controlar o cursor do mouse usando apenas a câmera do computador e movimentos da mão.
+Este projeto utiliza visão computacional (OpenCV e MediaPipe) para controlar o cursor do mouse e executar comandos de sistema utilizando apenas a câmera do computador e os movimentos das mãos em tempo real. Conta com um sistema de suavização matemática para garantir que o cursor deslize perfeitamente pela tela sem trepidações.
 
 ## ⚠️ Pré-requisito Muito Importante
 Para que a biblioteca de visão computacional funcione corretamente, você **precisa ter o Python 3.10 ou 3.11** instalado na sua máquina (versões mais novas, como a 3.13 ou 3.14, podem dar erro de módulo não encontrado no MediaPipe).
@@ -10,7 +10,7 @@ Para que a biblioteca de visão computacional funcione corretamente, você **pre
 
 **1. Clone o repositório e entre na pasta**
 Abra o terminal do seu VS Code e rode:
-`git clone [https://github.com/andreiadias2000/mouse_virtual.git]`
+`git clone https://github.com/andreiadias2000/mouse_virtual.git`
 `cd mouse_virtual`
 
 **2. Crie o ambiente virtual isolado**
@@ -30,31 +30,22 @@ Com o ambiente ativado, rode este comando para baixar tudo automaticamente:
 **5. Rode a aplicação**
 `python main.py`
 
-## 🖐️ Como usar
 ## 🖐️ Guia de Comandos e Gestos
-##       Comandos com 1 Mão (Navegação)
-(Certifique-se de que apenas uma mão está visível na câmera)
 
-🖱️ Mover o Mouse: Aponte o dedo indicador para a câmera e mova a mão. Uma marcação amarela seguirá o seu dedo.
+### Comandos com 1 Mão (Navegação)
+*(Certifique-se de que apenas uma mão está visível na câmera)*
 
-🖱️ Clique Simples: Faça um movimento de pinça rápido, juntando a ponta do dedão com a ponta do dedo indicador. A marcação ficará verde ao clicar.
+* 🖱️ **Mover o Mouse:** Aponte o **dedo indicador** para a câmera e mova a mão. Uma marcação amarela seguirá o seu dedo com movimento suavizado.
+* 🖱️ **Clique Simples:** Faça um movimento de pinça rápido, juntando a ponta do **dedão** com a ponta do **dedo indicador**. A marcação ficará verde ao clicar.
+* ⬆️ **Rolar para Cima (Scroll Up):** Junte a ponta do **dedão** com a ponta do **dedo médio**. A marcação ficará azul.
+* ⬇️ **Rolar para Baixo (Scroll Down):** Junte a ponta do **dedão** com a ponta do **dedo anelar**. A marcação ficará vermelha.
 
-⬆️ Rolar para Cima (Scroll Up): Junte a ponta do dedão com a ponta do dedo médio. A marcação ficará azul.
+### Comandos com 2 Mãos (Controle de Tela)
+*(As duas mãos devem estar visíveis na câmera simultaneamente)*
 
-⬇️ Rolar para Baixo (Scroll Down): Junte a ponta do dedão com a ponta do dedo anelar. A marcação ficará vermelha.
+* 🔍 **Ativar Modo Zoom:** Levante as duas mãos apontando os dois **dedos indicadores**. O sistema conectará os dedos com uma linha azul na tela.
+* ➕ **Aumentar Tela (Zoom In):** Com a linha azul ativa, **afaste** os dedos indicadores um do outro. O sistema executará o atalho do teclado para dar zoom.
+* ➖ **Diminuir Tela (Zoom Out):** Com a linha azul ativa, **aproxime** os dedos indicadores um do outro.
 
-Comandos com 2 Mãos (Controle de Tela)
-(As duas mãos devem estar visíveis na câmera simultaneamente)
-
-🔍 Ativar Modo Zoom: Levante as duas mãos apontando os dois dedos indicadores. O sistema conectará os dedos com uma linha azul na tela.
-
-➕ Aumentar Tela (Zoom In): Com a linha azul ativa, afaste os dedos indicadores um do outro.
-
-➖ Diminuir Tela (Zoom Out): Com a linha azul ativa, aproxime os dedos indicadores um do outro.
-
-Comando de Segurança
-🛑 Encerrar o Programa: Clique na janela de vídeo da câmera para focar nela e aperte a tecla Q no teclado para fechar a aplicação com segurança.
-* Levante a mão de frente para a câmera.
-* Use a ponta do **dedo indicador** para mover o mouse pela tela.
-* Para **clicar**, faça um movimento de pinça, juntando a ponta do dedo indicador com a ponta do dedão.
-* Clique na janela da câmera e aperte a tecla **Q** no teclado para encerrar o programa com segurança.
+### Comando de Segurança
+* 🛑 **Encerrar o Programa:** Clique na janela de vídeo da câmera ("Mouse Virtual via Webcam") e aperte a tecla **Q** no teclado para fechar a aplicação com segurança.
